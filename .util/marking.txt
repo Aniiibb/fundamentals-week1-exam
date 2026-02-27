@@ -5,9 +5,9 @@ collected 27 items
 
 Level-1/test_one_task.py .............                                   [ 48%]
 Level-2/test_two_task.py .......                                         [ 74%]
-Level-3/test_three_task.py FFFFFFF                                       [100%]
+Level-3/test_three_task.py FFF.FFF                                       [100%]
 
-========================= 7 failed, 20 passed in 0.24s =========================
+========================= 6 failed, 21 passed in 0.10s =========================
 ************* Module task_one
 Level-1/task_one.py:19:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
 Level-1/task_one.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -19,11 +19,13 @@ Level-2/task_two.py:37:0: C0325: Unnecessary parens after 'return' keyword (supe
 Level-2/task_two.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
 Level-2/task_two.py:33:21: W0621: Redefining name 'basket' from outer scope (line 6) (redefined-outer-name)
 ************* Module task_three
+Level-3/task_three.py:8:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
 Level-3/task_three.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
-Level-3/task_three.py:6:21: W0621: Redefining name 'receipt_string' from outer scope (line 12) (redefined-outer-name)
-Level-3/task_three.py:6:21: W0613: Unused argument 'receipt_string' (unused-argument)
-Level-3/task_three.py:12:4: C0103: Constant name "receipt_string" doesn't conform to UPPER_CASE naming style (invalid-name)
+Level-3/task_three.py:6:21: W0621: Redefining name 'receipt_string' from outer scope (line 27) (redefined-outer-name)
+Level-3/task_three.py:7:7: R1714: Consider merging these comparisons with 'in' by using 'receipt_string in ('', 'Total: £0.00')'. Use a set instead if elements are hashable. (consider-using-in)
+Level-3/task_three.py:6:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Level-3/task_three.py:27:4: C0103: Constant name "receipt_string" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 8.00/10 (previous run: 8.00/10, +0.00)
+Your code has been rated at 8.08/10 (previous run: 8.08/10, +0.00)
 
