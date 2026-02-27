@@ -27,6 +27,7 @@ def add_to_basket(item: dict) -> list:
         "price": item_price,
         "count": 1
     })
+    return basket
 
 
 def generate_receipt(basket: list) -> str:
@@ -47,6 +48,8 @@ def generate_receipt(basket: list) -> str:
             line = f"{name} x {quantity} - Free\n"
         else:
             line = f"{name} x {quantity} - £{line_total:.2f}\n"
+
+        receipt += line
 
     receipt += f"Total: £{total:.2f}"
     return receipt  # return the receipt string
