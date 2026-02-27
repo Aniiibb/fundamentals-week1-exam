@@ -31,6 +31,7 @@ def add_to_basket(item: dict) -> list:
 
 
 def generate_receipt(basket: list) -> str:
+    """Generates the receipt with the updated functionality"""
     total = 0
     receipt = ""
     if basket == []:
