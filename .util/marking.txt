@@ -1,13 +1,13 @@
 ============================= test session starts ==============================
-platform linux -- Python 3.12.12, pytest-9.0.2, pluggy-1.6.0
-rootdir: /home/runner/work/Assessment-Fundamentals-Week-1/Assessment-Fundamentals-Week-1
+platform linux -- Python 3.12.13, pytest-9.0.3, pluggy-1.6.0
+rootdir: /home/runner/work/fundamentals-week1-exam/fundamentals-week1-exam
 collected 27 items
 
 Level-1/test_one_task.py .............                                   [ 48%]
 Level-2/test_two_task.py .......                                         [ 74%]
 Level-3/test_three_task.py FFF.FFF                                       [100%]
 
-========================= 6 failed, 21 passed in 0.17s =========================
+========================= 6 failed, 21 passed in 0.10s =========================
 ************* Module task_one
 Level-1/task_one.py:21:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
 Level-1/task_one.py:16:21: W0621: Redefining name 'basket' from outer scope (line 7) (redefined-outer-name)
